@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Vazirmatn', sans-serif;
+    color: black;
+    overflow-x: hidden;
+     width: 100%;
+ 
+}
+h1{
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    color: black;
+}
+.swiper-pagination-bullet{
+    background: white;
+}
